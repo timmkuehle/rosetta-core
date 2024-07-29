@@ -3,6 +3,11 @@
 	"description": "Core PHP functionality of the Rosetta framework",
 	"type": "library",
 	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Rosetta\\Core\\": "src/"
+		}
+	},
 	"authors": [
 		{
 			"name": "Tim Moritz Kühle"
