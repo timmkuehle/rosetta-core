@@ -13,11 +13,20 @@
 			"name": "Tim Moritz Kühle"
 		}
 	],
-	"minimum-stability": "stable",
-	"require": {},
-	"autoload": {
-		"psr-4": {
-			"Rosetta\\Core\\": "src/"
+	"minimum-stability": "dev",
+	"require-dev": {
+		"friendsofphp/php-cs-fixer": "^3.60"
+	},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "../../rosetta-lang-support/Code",
+			"options": {
+				"symlink": true
+			}
 		}
+	],
+	"require": {
+		"timmkuehle/rosetta-lang-support": "@dev"
 	}
 }
