@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8cbcf8d4a4e41d42e976f38998a96d13",
+    "content-hash": "1513e45f03ce16c0eb38ddced675bff5",
     "packages": [],
     "packages-dev": [
         {
@@ -2565,7 +2565,7 @@
             "version": "dev-main",
             "dist": {
                 "type": "path",
-                "url": "../../rosetta-lang-support/Code",
+                "url": "../rosetta-lang-support",
                 "reference": "24d105cf94a38c451bcc730b60056faa036be7f7"
             },
             "require": {

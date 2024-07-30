@@ -21,7 +21,7 @@
 	"repositories": [
 		{
 			"type": "path",
-			"url": "../../rosetta-lang-support/Code",
+			"url": "../rosetta-lang-support",
 			"options": {
 				"symlink": true
 			}
