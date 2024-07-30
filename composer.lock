@@ -4,8 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7034509db36f941c1241c79639da981f",
-    "packages": [
+    "content-hash": "8cbcf8d4a4e41d42e976f38998a96d13",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "clue/ndjson-react",
             "version": "1.x-dev",
@@ -2565,7 +2566,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../rosetta-lang-support/Code",
-                "reference": "7b4bae58743c81784a0a14a808bd3c34c62bb9c8"
+                "reference": "24d105cf94a38c451bcc730b60056faa036be7f7"
             },
             "require": {
                 "friendsofphp/php-cs-fixer": "^3.60"
@@ -2591,7 +2592,6 @@
             }
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
