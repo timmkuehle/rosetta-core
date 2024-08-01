@@ -4,8 +4,18 @@ declare(strict_types=1);
 
 namespace Rosetta\Core;
 
+require __DIR__ . '/../vendor/autoload.php';
+
 class Router {
-	public function __construct(string $origin) {
-		echo 'Hello world from ' . $origin . PHP_EOL;
+	public static function init() {
+		self::initController(self::getRequestUri());
+	}
+
+	private static function initController(string $request_uri) {
+		echo "Request URI {$request_uri}" . PHP_EOL;
+	}
+
+	private static function getRequestUri(): string {
+		return $_SERVER['REQUEST_URI'] ?? '/';
 	}
 }
